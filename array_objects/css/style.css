@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0%;
+    background-color: pink;
+    text-align: center;
+}
+h2, h3 {
+    color: pink;
+}
+div {
+    background-color: white;
+    padding: 20px;
+    margin: 20px, auto;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+}
+input {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: burlywood;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button:hover {
+    background-color: burlywood;
+}
+table{
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: lightcoral;
+    color: white;
+}

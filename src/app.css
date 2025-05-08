@@ -1,0 +1,153 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #1a1a1a;
+    color: white;
+  }
+  
+  h1, h2 {
+    color: #F78C9C; /* Pink color for headings */
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #F78C9C; /* Pink hover color for links */
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #121212;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    color: #F78C9C;
+  }
+  
+  /* Home Section */
+  .home-section {
+    height: 100vh;
+    background-image: url('/path-to-your-image.jpg'); /* Background image if needed */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .home-section img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .home-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .home-section p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* About Section */
+  .about-section {
+    padding: 40px;
+    background-color: #2c2c2c;
+    color: white;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Projects Section */
+  .projects-section {
+    padding: 40px;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+  }
+  
+  .projects-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .projects-section .project-card {
+    background-color: #00B5E2;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .projects-section .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .projects-section .project-card h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .projects-section .project-card p {
+    font-size: 1rem;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 40px;
+    background-color: #2c2c2c;
+    color: white;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 1.2rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #121212;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
